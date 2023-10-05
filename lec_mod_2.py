@@ -3,9 +3,9 @@ Simple void function
 """
 
 
-def print_line():
+def print_line(number):
     """Prints n amount of lines"""
-    print('-' * 20)
+    print('-' * number)
 
 
-print_line()
+print_line(20)
